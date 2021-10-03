@@ -29,7 +29,7 @@ var slider = d3
 
 
 async function drawLineChart() {
-    const dataset = await d3.csv("Assets/Two_rockets/For_circle.csv");
+    const dataset = await d3.csv("For_circle.csv");
 
     const xAccessor = (d) => d.X;
     const yAccessor = (d) => d.Y;
