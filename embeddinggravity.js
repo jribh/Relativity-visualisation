@@ -197,7 +197,7 @@ async function embeddingGravity() {
         const materialEmbedding = new THREE.MeshNormalMaterial({opacity : 1, transparent : true, side : THREE.DoubleSide, morphTargets : true});
 
 
-        loadEmbedding("Assets/individual gltfs/embedding 4 animated.glb");
+        loadEmbedding("embedding 4 animated.glb");
 
         function loadEmbedding(embeddingType) {
 
@@ -305,7 +305,7 @@ async function embeddingGravity() {
                 sceneDualEmbedding.remove(sceneDualEmbedding.children[0]); 
             }
     
-            loadEmbedding("Assets/individual gltfs/embedding black hole.glb")
+            loadEmbedding("embedding black hole.glb")
 
         } else {
 
@@ -313,7 +313,7 @@ async function embeddingGravity() {
                 sceneDualEmbedding.remove(sceneDualEmbedding.children[0]); 
             }
     
-            loadEmbedding("Assets/individual gltfs/embedding 4 animated.glb")
+            loadEmbedding("embedding 4 animated.glb")
 
         }
 
@@ -340,7 +340,7 @@ async function embeddingGravity() {
                 sceneDualEmbedding.remove(sceneDualEmbedding.children[0]); 
             }
     
-            loadEmbedding("Assets/individual gltfs/embedding black hole.glb")
+            loadEmbedding("embedding black hole.glb")
 
         } else {
 
@@ -348,7 +348,7 @@ async function embeddingGravity() {
                 sceneDualEmbedding.remove(sceneDualEmbedding.children[0]); 
             }
     
-            loadEmbedding("Assets/individual gltfs/embedding 4 animated.glb")
+            loadEmbedding("embedding 4 animated.glb")
 
         }
         
